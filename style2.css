@@ -1,0 +1,160 @@
+
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.border{
+
+    height: 75vh;
+    width: 35vw;
+    background-color: #e7e7e7;
+    border: 2px solid #e7e7e7;
+    border-radius: 10%;
+   
+}
+
+
+
+.pfp{
+    height: 28%;
+    width: 25%;
+    border-radius: 50%;
+    background-image: url(aks1.jpg);
+    background-size: cover;
+    border: 4px;
+    border-color: blue;
+    border-style: solid;
+    padding: 0.5px;
+   margin-left: 35%;
+   margin-top: 25px 
+}
+
+
+
+.self{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    margin-top: 20px;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.work{
+    font-weight: lighter;
+    font-size: medium;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+
+@media (max-width:700px){
+
+    .border{
+        height: 120vh;
+        width: fit-content;
+    }
+    .pfp{
+        width: 50%;
+        height: 15%;
+        background-size: cover;
+    }
+    .icon{
+        display: flex;
+        flex-direction: column;
+    }
+    .sub{
+        background-color: aqua;
+    }
+    .mess{
+        background-color: aqua;
+    }
+    .link{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .likes{display: flex;
+        flex-direction: column;
+        
+    }
+}
+.facebook{
+    font-size: 30px;
+}
+.insta{
+    font-size: 30px;
+}
+.twitter{
+    font-size: 30px;
+}  
+.github{
+    font-size: 30px;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 15%;
+    width: 70%;
+    margin-top: 40px;
+}
+
+.sub{
+    background-color: #4070f4;
+    border: 2px solid #4070f4;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: aliceblue;
+     width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+
+.mess{
+    background-color: #4070f4;
+    border: 2px solid #4070f4;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: aliceblue;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 30px;
+}
+
+.likes{
+
+   display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 15%;
+    width: 70%;
+    margin-top: 40px;
+
+}
+
+
+.button:hover {
+  background-color: #7a808e;
+}
+
