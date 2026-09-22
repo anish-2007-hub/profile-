@@ -2,9 +2,7 @@
 
 A simple, responsive personal profile website built with **HTML** and **CSS**.
 
-🔗 **Live Demo:** [https://anish-2007-hub.github.io/profile-/](https://anish-2007-hub.github.io/profile-/)
 
----
 
 ## About
 
